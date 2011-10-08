@@ -2,7 +2,7 @@
 
 Name:           psi-plus-icons
 Version:        0.15
-Release:        0.1%{rev}%{?dist}.R
+Release:        0.1.%{rev}%{?dist}.R
 Epoch:          2
 BuildArch:      noarch
 Summary:        Iconsets for Psi+
