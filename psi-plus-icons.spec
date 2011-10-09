@@ -31,5 +31,5 @@ mkdir -p $RPM_BUILD_ROOT%{_datadir}/psi-plus/
 %{_datadir}/psi-plus/iconsets/*
 
 %changelog
-* Sat Sep 24 2011 Ivan Romanov <drizt@land.ru> - 0.15-0.1.20110924git1a6d4f7.R
+* Sun Oct 09 2011 Ivan Romanov <drizt@land.ru> - 0.15-0.1.20110924git1a6d4f7.R
 - Initial version of package
