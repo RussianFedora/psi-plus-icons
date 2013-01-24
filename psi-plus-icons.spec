@@ -1,15 +1,15 @@
-%define rev 20110924git1a6d4f7
+%define rev 20130124git4c189ec
 
 Name:           psi-plus-icons
 Version:        0.15
-Release:        0.1.%{rev}%{?dist}.R
+Release:        0.2.%{rev}%{?dist}
 Epoch:          2
 BuildArch:      noarch
 Summary:        Iconsets for Psi+
 
 License:        Unknown
 URL:            http://code.google.com/p/psi-dev/
-Source0:        %{name}-%{version}-20110924git1a6d4f7.tar.gz
+Source0:        http://files.psi-plus.com/sources/%{name}-%{version}-%{rev}.tar.gz
 Source1:        generate-tarball.sh
 
 BuildRequires:  tar
@@ -27,9 +27,13 @@ mkdir -p $RPM_BUILD_ROOT%{_datadir}/psi-plus/
 %{__tar} xzf %{SOURCE0} -C $RPM_BUILD_ROOT%{_datadir}/psi-plus/
 
 %files
-%defattr(-,root,root,-)
 %{_datadir}/psi-plus/iconsets/*
 
 %changelog
+* Thu Jan 24 2013 Ivan Romanov <drizt@land.ru> - 2:0.15-0.2.20130124git4c189ec.R
+- a new version
+- dropped %%defattr
+- tarball moved to http://files.psi-plus.com/sources
+
 * Sun Oct 09 2011 Ivan Romanov <drizt@land.ru> - 0.15-0.1.20110924git1a6d4f7.R
 - Initial version of package
