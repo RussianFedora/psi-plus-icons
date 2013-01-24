@@ -1,7 +1,7 @@
 %define rev 20130124git4c189ec
 
 Name:           psi-plus-icons
-Version:        0.15
+Version:        0.16
 Release:        0.2.%{rev}%{?dist}
 Epoch:          2
 BuildArch:      noarch
@@ -30,7 +30,7 @@ mkdir -p $RPM_BUILD_ROOT%{_datadir}/psi-plus/
 %{_datadir}/psi-plus/iconsets/*
 
 %changelog
-* Thu Jan 24 2013 Ivan Romanov <drizt@land.ru> - 2:0.15-0.2.20130124git4c189ec.R
+* Thu Jan 24 2013 Ivan Romanov <drizt@land.ru> - 2:0.16-0.2.20130124git4c189ec.R
 - a new version
 - dropped %%defattr
 - tarball moved to http://files.psi-plus.com/sources
