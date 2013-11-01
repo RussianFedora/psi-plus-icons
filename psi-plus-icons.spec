@@ -1,8 +1,8 @@
-%define rev 20130130git4c189ec
+%define rev 20131101git1bb3532
 
 Name:           psi-plus-icons
 Version:        0.16
-Release:        0.3.%{rev}%{?dist}
+Release:        0.4.%{rev}%{?dist}
 Epoch:          2
 BuildArch:      noarch
 Summary:        Iconsets for Psi+
@@ -30,6 +30,9 @@ mkdir -p $RPM_BUILD_ROOT%{_datadir}/psi-plus/
 %{_datadir}/psi-plus/iconsets/*
 
 %changelog
+* Fri Nov  1 2013 Ivan Romanov <drizt@land.ru> - 2:0.16-0.4.20131101git1bb3532.R
+- updated to 1bb3532
+
 * Wed Jan 30 2013 Ivan Romanov <drizt@land.ru> - 2:0.16-0.3.20130130git4c189ec.R
 - dropped non-free kolobok smiles
 
